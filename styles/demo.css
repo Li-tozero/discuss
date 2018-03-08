@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    /*border:none;*/
+}
+body{
+    font-size:12px;
+    line-height:120%;
+    text-align:center;
+    color:#333;
+    padding:20px;
+}
+#list{
+    margin:0 auto;
+    width:540px;
+    /*text-algin:left;*/
+}
+.box{
+    border-top:1px solid #eee;
+    position:relative;
+    width:540px;
+    padding:20px 0;
+}
+a{
+    color:#333;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+}
