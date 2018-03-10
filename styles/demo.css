@@ -23,7 +23,7 @@ body{
 #list{
     margin:0 auto;
     width:540px;
-    /*text-algin:left;*/
+    text-align:left;
 }
 .box{
     border-top:1px solid #eee;
@@ -89,23 +89,23 @@ margin-right:5px;
     float:left;
     height:20px;
     padding-left:20px;
-    background: url("images/bg1.jpg") no-repeat left top;
+    background: url("../images/bg1.jpg") no-repeat left top;
 }
 .info .praise{
     color:#ccc;
-    float:left;
+    float:right;
     height:20px;
     padding-left:18px;
-    background:url("images/bg2.jpg") no-repeat left top;
+    background:url("../images/bg2.jpg") no-repeat left top;
 }
 .info .praise:hover{
     text-decoration:underline;
-    background:url("images/bg3.jpg") no-repeat left top;
+    background:url("../images/bg3.jpg") no-repeat left top;
 }
 .praise-total{
     margin:0 0 10px 0;
     height:20px;
-    background:url("images/praise.png") no-repeat 5px 5px rgb(247,247,247);
+    background:url("../images/praise.png") no-repeat 5px 5px rgb(247,247,247);
     padding:5px 0 5px 25px;
     line-height:19px;
 }
@@ -137,7 +137,7 @@ margin-right:5px;
     color:#369;
     padding-left:17px;
     height:20px;
-    background:url("images/praise.png") no-repeat;
+    background:url("../images/praise.png") no-repeat;
     position:absolute;
     bottom:0;
     right:44px;
@@ -155,4 +155,45 @@ margin-right:5px;
 }
 .comment-box .comment-content:hover .comment-operate{
     display:inline-block;
+}
+.text-box .comment{
+    borer:1px solid #eee;
+    display:block;
+    height:15px;
+    width:428px;
+    padding:5px;
+    resize:none;/**/
+    color:#ccc;
+}
+.text-box .btn{
+    font-size:12px;
+    font-weight:bold;
+    display:none;
+    float:right;
+    width:65px;
+    height:25px;
+    border:1px solid #0c528d;
+    color:#fff;
+    background:#4679ac;
+}
+.text-box .btn-off{
+    border:1px solid #ccc;
+    color:#ccc;
+    background:#f7f7f7;
+}
+.text-box .word{
+    display:none;
+    float:right;
+    margin:7px 10px 0 0;
+    color:#666;
+}
+.text-box-on .comment{
+    height:50px;
+    color:#333;
+}
+.text-box-on .btn{
+    display:inline;
+}
+.text-box-on .btn{
+    display:inline;
 }
